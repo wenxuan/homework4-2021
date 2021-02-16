@@ -30,7 +30,7 @@ body{
   margin: 1.2em;
   background-size: cover ;
   background-position: center;
-  font-family:"Andika", "sans-serif";
+  font-family:"Andika", sans-serif;
   background-image: url("../images/pigeon-background.JPEG");
 }
 
@@ -111,8 +111,13 @@ table{
     margin-right: auto;
     vertical-align: middle;
     border-radius: 10px;
-    
 }
+
+thead tr:first-child th:first-child{
+  border-top-left-radius: 10px;
+}
+
+
 
 
 /*Add selectors and rules here*/
