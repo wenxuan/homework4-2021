@@ -119,6 +119,9 @@ table{
     border-radius: 10px;
 }
 
+
+/*Add selectors and rules here*/
+
 thead tr:first-child th:first-child{
   border-top-left-radius: 10px;
 }
@@ -138,7 +141,7 @@ tbody tr:last-child th:last-child{
 
 
 
-/*Add selectors and rules here*/
+
 
 
 /*Req 8*/
@@ -151,5 +154,6 @@ footer{
   position: fixed;
   bottom:0;
   width:100%;
+  left: 0;
 }
 
